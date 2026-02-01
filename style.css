@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg,#ff4e50,#f9d423);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 90%;
+  max-width: 360px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.photo {
+  width: 100%;
+  border-radius: 15px;
+  margin: 15px 0;
+}
+
+button {
+  background: #ff4e50;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 30px;
+  font-size: 16px;
+}
